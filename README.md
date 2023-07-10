@@ -5,7 +5,7 @@
 - [📖 About the Project](#about-project)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [🚀 Live Demo](#live-demo)
+<!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -143,7 +143,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rubydevi/math-magician/issues).
 
 <!-- SUPPORT -->
 
@@ -161,6 +161,6 @@ If you like this project please leave a star, I'd really appreciate it.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/rubydevi/math-magician/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
