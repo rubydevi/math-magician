@@ -1,3 +1,7 @@
+#calculator {
+  width: 25%;
+}
+
 .display {
   display: flex;
   align-items: center;
