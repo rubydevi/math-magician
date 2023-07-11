@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import './Calculator.css';
+import '../logic/calculate';
 
 const Calculator = () => (
   <div id="calculator">
