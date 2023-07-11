@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ children, className }) => (
-  // eslint-disable-next-line react/button-has-type
   <button type="button" className={className}>
     {children}
   </button>
