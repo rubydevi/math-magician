@@ -1,3 +1,10 @@
+.mainApp {  
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 #calculator {
   width: 25%;
 }
@@ -33,4 +40,8 @@
 
 .right-button {
   background-color: #f5903d;
+}
+
+.quote {
+  width: 50%;
 }
