@@ -18,6 +18,7 @@ const Calculator = () => {
 
   return (
     <div id="calculator">
+      <h2>Calculator:</h2>
       <div className="display">{displayValue}</div>
       <div className="buttons">
         <Button buttonName="AC" className="button" onClick={() => handleButtonClick('AC')} />
