@@ -126,6 +126,11 @@ To run tests, run the following command:
 - Twitter: [@arieabyss](https://twitter.com/ariesabyss)
 - LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
 
+👤 **Kingsley (Chidozie) Igbor**
+
+- GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
+- LinkedIn: [Kingsley(Chidozie)Igbor](https://www.linkedin.com/in/kingsley-igbor-14b04720b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
