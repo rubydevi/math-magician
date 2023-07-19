@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Brush Script MT', cursive;
+  line-height: 1.4;
+  color: #fff;
+  background: #fff;
+  height: 100vh;
+  font-weight: 400;
+}
+
 .mainApp {
   display: flex;
   align-items: flex-start;
@@ -5,8 +20,16 @@
   justify-content: space-around;
 }
 
+/* Calculator */
 #calculator {
-  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.calculator-body {
+  width: 50%;
 }
 
 .display {
@@ -42,6 +65,110 @@
   background-color: #f5903d;
 }
 
+/* Navbar styles */
+.navbar {
+  position: relative;
+  background-image: url('../images/nav-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow right outside the navbar */
+}
+
+.navbar::before,
+.navbar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar::before {
+  top: -20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar::after {
+  bottom: -5px;
+  box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.website-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#home,
 .quote {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 8%;
+}
+
+.section-bg-image {
+  background-image: url('../images/bg-image2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-body {
+  width: 55%;
+}
+
+.loader {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  border-top-color: #333;
+  animation: spin 0.6s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
