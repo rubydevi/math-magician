@@ -5,11 +5,18 @@ import React from 'react';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
+import logo from './images/logo1.png';
 
 const App = () => (
   <BrowserRouter>
-    <nav>
+    <nav className="navbar">
       <ul className="nav-list">
+        <li className="logo-item">
+          <Link className="logo-link" to="/">
+            <img className="logo" src={logo} alt="Logo" />
+            <span className="website-name">Happy Calculator</span>
+          </Link>
+        </li>
         <li>
           <Link className="nav-item" to="/">Home</Link>
         </li>
