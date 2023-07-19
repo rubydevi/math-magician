@@ -30,12 +30,18 @@ const Quote = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="quote section-bg-image">
+        <h2>Quote:</h2>
+        <div className="loader" />
+      </div>
+    );
   }
 
   if (error) {
     return (
-      <div>
+      <div className="quote section-bg-image">
+        <h2>Quote:</h2>
         Error:
         {error}
       </div>
@@ -43,11 +49,15 @@ const Quote = () => {
   }
 
   return (
-    <div className="quote">
+    <div className="quote section-bg-image">
       <h2>Quote:</h2>
       {quote && (
         <div>
-          <p>{quote.quote}</p>
+          <p>
+            &quot;
+            {quote.quote}
+            &quot;
+          </p>
           <p>
             -
             {quote.author}
