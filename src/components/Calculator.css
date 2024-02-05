@@ -26,6 +26,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 5%;
+  height: 100vh;
 }
 
 .calculator-body {
@@ -41,6 +42,7 @@ body {
   height: 10vh;
   background-color: #848693;
   color: #fff;
+  padding-right: 10px;
 }
 
 .buttons {
@@ -55,6 +57,16 @@ body {
   border: 1px solid #cdcdcd;
   text-align: center;
   background-color: #e0e0e0;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.button:hover {
+  background-color: #d3d3d3;
+}
+
+.button:active {
+  background-color: #c6c6c6;
 }
 
 .zero-button {
